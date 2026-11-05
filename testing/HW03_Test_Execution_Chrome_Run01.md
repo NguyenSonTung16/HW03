@@ -3,7 +3,7 @@
 ## Thông tin lượt chạy
 
 - **Run ID:** `HW03-CHROME-20261105-01`
-- **Thời gian:** 20:25–20:38, 05/11/2026 (UTC+07:00)
+- **Thời gian:** 20:25–20:49, 05/11/2026 (UTC+07:00)
 - **SUT:** EShop SUT trong bản làm việc cô lập `HW03_EShop_Isolated`
 - **URL:** `http://127.0.0.1:5173/`
 - **Nền tảng:** Windows, Chrome trong Codex in-app browser. Phiên bản build Chrome không được giao diện hiện tại cung cấp.
@@ -16,9 +16,9 @@
 
 | Trạng thái | Số mục |
 |---|---:|
-| Passed (Yes) | 16 |
+| Passed (Yes) | 19 |
 | Failed (No) | 21 |
-| Chưa chạy (trạng thái để trống) | 13 |
+| Chưa chạy (trạng thái để trống) | 10 |
 | **Tổng** | **50** |
 
 Ô trạng thái để trống nghĩa là chưa chạy/không đủ điều kiện kết luận; lý do cụ thể nằm trong Note của từng mục. Không xem đây là Pass.
@@ -32,7 +32,7 @@
 
 ## Mục chưa chạy
 
-- **Viewport:** `HOME-02`, `HOME-08`, `DETAIL-02`, `DETAIL-03`, `CART-03` cần 375×812 và/hoặc 1440×900; tab kiểm thử không cung cấp chức năng đặt viewport.
+- **Viewport:** `DETAIL-03` chưa chạy vì dữ liệu sản phẩm được xem có mô tả ngắn; `CART-03` cần giỏ có hai mặt hàng nhưng lượt hiện tại không tạo được giỏ hai mặt hàng ổn định.
 - **Mạng chậm:** `HOME-17`, `CHECKOUT-12` chưa chạy vì không có công cụ điều tiết mạng trong tab.
 - **Giỏ nhiều hàng / cập nhật:** `CART-12` chưa chạy; `CART-13` chưa chạy phần sau khi sửa số lượng do UI không có nút `+`/`−`.
 - **Đơn hàng:** `CHECKOUT-01`, `CHECKOUT-03`, `CHECKOUT-13`, `CHECKOUT-16` cần giỏ hàng/đơn hàng hợp lệ; `CHECKOUT-14` mới thử mã giả `BADCODE`, chưa chạy mã `EXPIRED` hoặc trường hợp dưới ngưỡng.
@@ -44,4 +44,4 @@ Trong lượt này đã quan sát ảnh chụp trang chủ, chi tiết sản ph�
 
 ## Giới hạn kết luận
 
-Đây mới là một lượt trên Chrome ở viewport đang dùng, chưa phải hoàn tất Giai đoạn B. Chưa chạy đa nền tảng, chưa tạo GitHub Issues và chưa có ảnh lỗi dạng tệp. Kết quả No là quan sát của SUT tại lượt chạy này, không tự suy rộng thành kết luận về các phiên bản khác.
+Đây mới là một lượt trên Chrome ở viewport 375×812 và 1440×900, chưa phải hoàn tất Giai đoạn B. Chưa chạy đa nền tảng, chưa tạo GitHub Issues và chưa có ảnh lỗi dạng tệp. Kết quả No là quan sát của SUT tại lượt chạy này, không tự suy rộng thành kết luận về các phiên bản khác.
