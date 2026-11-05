@@ -1,13 +1,24 @@
 # HW03 — GUI Usability
 
-This repository contains the current HW03 GUI checklist, work plan, and AI audit report.
+Repository for the HW03 GUI checklist, run evidence, bug reports, and AI audit materials.
 
-## Current contents
+## Phase B — Chrome Run 02
 
-- `checklist/HW03_GUI_Checklist.xlsx` — checklist prepared from the reviewed and adjusted worksheet. Test execution results remain to be recorded during real runs.
-- `planning/HW03_Ke_hoach_va_checklist.md` — task plan and preparation checklist.
-- `audit/` — AI audit report in Markdown, DOCX, and PDF formats.
+Phase B checklist execution is recorded for the isolated EShop SUT on Chrome/Windows:
 
-## Progress
+- Checklist: [`checklist/HW03_GUI_Checklist_Chrome_Run02.xlsx`](checklist/HW03_GUI_Checklist_Chrome_Run02.xlsx) — 48 items, seven original template columns.
+- Execution summary: [`testing/HW03_Test_Execution_Chrome_Run02.md`](testing/HW03_Test_Execution_Chrome_Run02.md) — 24 Passed, 24 Failed, none unrun.
+- Bug report: [`testing/HW03_Bug_Report_Chrome_Run02.md`](testing/HW03_Bug_Report_Chrome_Run02.md) — 19 grouped bugs mapped to all 24 Failed checklist rows.
+- Evidence: [`testing/evidence/Chrome_Run02/`](testing/evidence/Chrome_Run02/) — page-only screenshots for the failed checks.
+- GitHub Issues: [#1–#19](https://github.com/NguyenSonTung16/HW03/issues) — each issue includes a screenshot attachment.
 
-The GUI checklist design is prepared. Cross-browser/platform execution, screenshots, bug reports, and the seven real participant sessions still require actual human execution and evidence; this repository does not claim those activities are complete.
+The SUT was run from the isolated work copy `HW03_EShop_Isolated`; the original `eshop-sut` working database was not used for this run.
+
+## Remaining project work
+
+Phase B is recorded in this commit. The remaining tasks include Task 1 runs on at least three platforms and the human-led pilot and seven usability sessions, including recruiting/consent, observation, and recording genuine participant responses. No participant sessions are claimed as completed here.
+
+## Other materials
+
+- `planning/` — HW03 plan and preparation checklist.
+- `audit/` — AI audit report artifacts.
