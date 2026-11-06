@@ -13,7 +13,7 @@
 
 **Đồng ý tham gia:** ☐ Có ☐ Không  **Ghi màn hình:** ☐ Có ☐ Không  **Ghi âm:** ☐ Có ☐ Không  **Thời điểm hỏi:** ________
 
-Nếu **không đồng ý tham gia**, kết thúc ngay. Nếu **không đồng ý ghi âm**, không thu âm nhưng vẫn ghi màn hình khi đã được đồng ý. Nếu **không đồng ý ghi màn hình**, chỉ ghi chú khi họ vẫn đồng ý tham gia; ghi lý do video không có và ưu tiên tuyển người khác đồng ý ghi màn hình cho phiên chính thức, vì đề yêu cầu ghi màn hình trong lúc thực hiện.
+Nếu **không đồng ý tham gia**, kết thúc ngay. Nếu **không đồng ý ghi âm**, không thu âm nhưng vẫn ghi màn hình khi đã được đồng ý. Nếu **không đồng ý ghi màn hình**, không ghi; chỉ ghi chú khi họ vẫn đồng ý tiếp tục và ghi rõ video thiếu. Đề yêu cầu ghi màn hình trong quá trình thực hiện; bố trí người khác đồng ý ghi màn hình cho bảy phiên chính thức. Danh sách tệp nộp ghi video “khi có”, nhưng không xóa yêu cầu trong quy trình.
 
 ## Mở phiên — lời nói gợi ý
 

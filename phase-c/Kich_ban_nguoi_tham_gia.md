@@ -8,7 +8,7 @@ Người điều phối đọc: “Chúng tôi đang xem giao diện EShop có d
 
 **Chỉ người điều phối ghi sau khi hỏi trực tiếp:** Đồng ý tham gia ☐ Có ☐ Không; đồng ý ghi màn hình ☐ Có ☐ Không; đồng ý ghi âm ☐ Có ☐ Không. Không bắt đầu ghi âm/ghi hình khi chưa có đồng ý tương ứng.
 
-Nếu không đồng ý tham gia, dừng phiên. Nếu chỉ không đồng ý ghi âm, tắt âm thanh. Nếu không đồng ý ghi màn hình nhưng vẫn đồng ý tham gia, người điều phối chỉ ghi chú và đánh dấu phiên không có video; không gây áp lực để thay đổi quyết định.
+Nếu không đồng ý tham gia, dừng phiên. Nếu chỉ không đồng ý ghi âm, tắt âm thanh. Nếu không đồng ý ghi màn hình nhưng vẫn đồng ý tham gia, không ghi màn hình; có thể ghi chú nếu họ muốn tiếp tục và đánh dấu phiên thiếu video. Đề yêu cầu ghi màn hình trong quá trình thực hiện, nên người điều phối bố trí người khác đồng ý ghi màn hình cho bảy phiên chính thức; không gây áp lực để họ đổi ý.
 
 ## Một nhiệm vụ duy nhất
 
