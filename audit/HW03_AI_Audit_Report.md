@@ -105,16 +105,19 @@ Các hàng dưới đây ghi tương tác HW03 truy xuất được; sinh viên 
 Prompt và phản hồi cuối được lấy nguyên văn từ JSON Codex; file thay đổi được liệt kê trong từng hàng. Hai lượt #28 và #31 không có phản hồi cuối độc lập trước prompt kế tiếp.
 
 
+| Prompt #40<br>Công cụ: Codex<br>Ngày giờ turn bắt đầu: 13:19:20 06/11/2026 UTC+07:00<br>Prompt nguyên văn:<br>cho tôi xem file đề bản dịch tiếng veitej<br> | Đây là [file đề HW03 bản dịch tiếng Việt (PDF)](/D:/vscode/Software testing/output/pdf/2026.HW03.GUI_Usability_Vi.pdf).<br><br>Tệp thay đổi: Không có. | VALID | Output cung cấp đúng liên kết đến file bản dịch tiếng Việt mà người dùng yêu cầu; tệp đích hiện có. | Chưa có bản sửa của sinh viên được ghi nhận. |
+| Prompt #41<br>Công cụ: Codex<br>Ngày giờ turn bắt đầu: 13:20:03 06/11/2026 UTC+07:00<br>Prompt nguyên văn:<br>bạn lại quên ghi audit rồi, với mỗi prompt đều cần ghi lại audit, để xác nhận thì phải ghi chữ "đã ghi audit" ở cuối cùng của output<br> | Bạn nhắc đúng. Mình đã bổ sung vào AI Audit hai tương tác:<br><br>- **Prompt #40:** yêu cầu xem file đề tiếng Việt; output là đường dẫn PDF đã gửi.<br>- **Prompt #41:** yêu cầu ghi audit cho mỗi prompt và kết thúc bằng đúng cụm `đã ghi audit`.<br><br>Đã ghi nguyên văn prompt/output, verdict, nhận xét và file thay đổi vào [bản Markdown](/D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.md), [bản Word](/D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.docx) và [bản PDF](/D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.pdf).<br><br>đã ghi audit<br><br>Tệp thay đổi: D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.md; D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.docx; D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.pdf | VALID | Đã ghi hai tương tác truy xuất được với prompt/output nguyên văn, verdict, nhận xét và danh sách file thay đổi; xác nhận được đặt ở cuối output. | Chưa có bản sửa của sinh viên được ghi nhận. |
+
 ## 4. Tổng kết Độ chính xác AI
 
-Đã đối chiếu 39 hàng theo lịch sử thread và artifact còn truy xuất được. Các mục #28–#39 được bổ sung hồi tố; chưa ghi nhận xác nhận hoặc chữ ký của sinh viên.
+Đã đối chiếu 41 hàng theo lịch sử thread và artifact còn truy xuất được. Các mục #28–#41 được bổ sung hồi tố; chưa ghi nhận xác nhận hoặc chữ ký của sinh viên.
 
 | Chỉ số | Số lượng | Tỉ lệ |
 |---|---:|---:|
-| Tổng artifact AI sinh đã audit | 39 prompt records | 39 đã có verdict; 0 bỏ trống |
-| VALID (đúng, dùng nguyên) | 24 | 61,54% trên 39 hàng |
-| INVALID (sai; loại bỏ) | 1 | 2,56% trên 39 hàng |
-| INCOMPLETE (chấp nhận sau khi sửa) | 14 | 35,90% trên 39 hàng |
+| Tổng artifact AI sinh đã audit | 41 prompt records | 41 đã có verdict; 0 bỏ trống | 41 đã có verdict; 0 bỏ trống |
+| VALID (đúng, dùng nguyên) | 26 | 63,41% trên 41 hàng | 63,41% trên 41 hàng |
+| INVALID (sai; loại bỏ) | 1 | 2,44% trên 41 hàng | 2,44% trên 41 hàng |
+| INCOMPLETE (chấp nhận sau khi sửa) | 14 | 34,15% trên 41 hàng | 34,15% trên 41 hàng |
 
 ## 5. Kết luận — Khi nào nên / không nên dùng AI?
 
