@@ -8,6 +8,8 @@ Người điều phối đọc: “Chúng tôi đang xem giao diện EShop có d
 
 **Chỉ người điều phối ghi sau khi hỏi trực tiếp:** Đồng ý tham gia ☐ Có ☐ Không; đồng ý ghi màn hình ☐ Có ☐ Không; đồng ý ghi âm ☐ Có ☐ Không. Không bắt đầu ghi âm/ghi hình khi chưa có đồng ý tương ứng.
 
+Nếu không đồng ý tham gia, dừng phiên. Nếu chỉ không đồng ý ghi âm, tắt âm thanh. Nếu không đồng ý ghi màn hình nhưng vẫn đồng ý tham gia, người điều phối chỉ ghi chú và đánh dấu phiên không có video; không gây áp lực để thay đổi quyết định.
+
 ## Một nhiệm vụ duy nhất
 
 > Bạn đang cân nhắc mua một sản phẩm trong EShop. Hãy dùng cửa hàng như bình thường để chọn một sản phẩm phù hợp, kiểm tra thông tin và biết số tiền cần trả. Bạn có mã ưu đãi **SAVE10** để thử. Hãy dừng ở màn hình xem lại đơn trước khi xác nhận đặt hàng; đừng gửi đơn thật. Trong lúc làm, hãy nói điều bạn đang nghĩ.

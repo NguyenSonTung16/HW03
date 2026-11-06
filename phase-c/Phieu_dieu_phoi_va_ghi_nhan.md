@@ -13,6 +13,8 @@
 
 **Đồng ý tham gia:** ☐ Có ☐ Không  **Ghi màn hình:** ☐ Có ☐ Không  **Ghi âm:** ☐ Có ☐ Không  **Thời điểm hỏi:** ________
 
+Nếu **không đồng ý tham gia**, kết thúc ngay. Nếu **không đồng ý ghi âm**, không thu âm nhưng vẫn ghi màn hình khi đã được đồng ý. Nếu **không đồng ý ghi màn hình**, chỉ ghi chú khi họ vẫn đồng ý tham gia; ghi lý do video không có và ưu tiên tuyển người khác đồng ý ghi màn hình cho phiên chính thức, vì đề yêu cầu ghi màn hình trong lúc thực hiện.
+
 ## Mở phiên — lời nói gợi ý
 
 “Mình đang kiểm tra **sản phẩm**, không kiểm tra bạn. Bạn có thể dừng bất cứ lúc nào. Hãy nói suy nghĩ khi thao tác. Mình sẽ quan sát và không hướng dẫn cách dùng giao diện. Nếu bạn gặp vướng mắc, cứ làm như bạn thường làm.”

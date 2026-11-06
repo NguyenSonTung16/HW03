@@ -16,7 +16,7 @@
 - [ ] EShop isolated environment is running and contains no real orders or personal data.
 - [ ] Browser starts from a clean session with an empty cart and the intended account state.
 - [ ] Prepare a test-only product choice, discount code `SAVE10`, and clearly fictitious checkout values if the task needs them. Never request a participant’s real address, phone, payment, or account password.
-- [ ] Recording tool is ready. Screen recording is optional; audio is recorded only with the participant’s explicit consent.
+- [ ] Recording tool is ready. The assignment asks to record the screen; ask before recording. Audio is recorded only with explicit consent. If screen recording is declined, take structured notes and mark the missing recording; seek a consenting participant for a formal session with complete evidence.
 - [ ] Print or open one blank observation log and one post-task questionnaire for this participant.
 - [ ] Prepare a private contact/eligibility list outside this repository; use participant codes in the submitted materials.
 
