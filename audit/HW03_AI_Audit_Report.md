@@ -119,16 +119,19 @@ Prompt và phản hồi cuối được lấy nguyên văn từ JSON Codex; file
 
 | Prompt #46<br>Công cụ: Codex<br>Ngày giờ turn bắt đầu: 14:13:00 06/11/2026 UTC+07:00<br>Prompt nguyên văn:<br>[https://eshop-sut-testing.onrender.com/](https://eshop-sut-testing.onrender.com/)<br>tôi đã host lên render, bây giờ đưa cho người tham gia thao tác, thì tôi cần ghi nhận riêng Đồng ý tham gia ☐ Có ☐ Không; đồng ý ghi màn hình ☐ Có ☐ Không; đồng ý ghi âm ☐ Có ☐ Không và phần đánh giá Sau khi thực hiện — SUS của riêng mỗi người đúng ko | Đúng. **Mỗi người tham gia cần một phiếu/record riêng**, ghi ba lựa chọn đồng ý riêng biệt và SUS của chính người đó. Cụ thể:<br><br>- **Trước phiên:** ghi mã người tham gia, ngày giờ, thiết bị/trình duyệt và riêng từng mục: đồng ý tham gia ☐ Có ☐ Không; đồng ý ghi màn hình ☐ Có ☐ Không; đồng ý ghi âm ☐ Có ☐ Không. Nếu không đồng ý tham gia thì dừng. Nếu không đồng ý ghi âm thì tắt âm thanh; nếu không đồng ý ghi màn hình thì không ghi hình và ghi nhận việc thiếu video.<br>- **Trong phiên:** ghi quan sát có mốc thời gian (hành động, chỗ do dự/lỗi, lời nói, can thiệp của bạn và kết quả nhiệm vụ). Ghi màn hình khi đã được đồng ý. Người tham gia chỉ thao tác trên EShop thử; dừng ở bước xem lại đơn, không đặt hàng thật hay nhập dữ liệu cá nhân/thanh toán thật.<br>- **Sau phiên:** để **từng người tự điền SUS 10 câu riêng** ngay sau nhiệm vụ, rồi mới hỏi và ghi câu trả lời cho các câu hỏi mở. Không điền hộ hoặc gộp câu trả lời giữa nhiều người.<br><br>Tên và thông tin liên hệ cần thiết để xác minh người tham gia được lưu riêng, hạn chế truy cập; không đưa vào video hoặc kho công khai. Khi lập danh sách nộp bài, che bốn chữ số ở giữa số điện thoại theo yêu cầu đề. Dùng URL EShop bạn cung cấp, nhưng trước mỗi phiên hãy xác nhận đó vẫn là môi trường thử và dữ liệu thử.<br><br>Mẫu ghi một phiên: [Phiếu điều phối và ghi nhận](</D:/vscode/Software testing/HW03_git/phase-c/Phieu_dieu_phoi_va_ghi_nhan.md>).<br><br>đã ghi audit<br><br>Tệp thay đổi: D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.md; D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.docx; D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.pdf | VALID | Đối chiếu đề HW03 Task 2, §6, §11, §14 và phiếu điều phối: consent cần tách theo từng loại; ghi quan sát và SUS riêng từng phiên; bảo vệ thông tin liên hệ và dùng SUT/dữ liệu thử. | Chưa ghi nhận bản sinh viên sửa cho output này. |
 
+
+| Prompt #47<br>Công cụ: Codex<br>Ngày giờ turn bắt đầu: 14:20:01 06/11/2026 UTC+07:00<br>Prompt nguyên văn:<br>soạn sẵn phiếu cho tôi | Đã soạn phiếu riêng cho từng người tham gia: [Phiếu người tham gia EShop](</D:/vscode/Software testing/HW03_git/phase-c/Phieu_nguoi_tham_gia_EShop.docx>).<br><br>Phiếu gồm ba lựa chọn đồng ý riêng (tham gia, ghi màn hình trên thiết bị của người tham gia, ghi âm), lời giới thiệu, nhiệm vụ EShop với mã `SAVE10`, SUS 10 câu và chỗ ghi phản hồi sau phiên. Phiếu chỉ dùng mã người tham gia, không ghi họ tên hay thông tin liên hệ; người điều phối lưu những thông tin đó riêng tư.<br><br>Mình đã rà soát bản Word sau khi xuất trang: phiếu gồm 2 trang. SUS được điền ngay sau nhiệm vụ, trước phần câu hỏi mở.<br><br>đã ghi audit<br><br>Tệp thay đổi: D:/vscode/Software testing/HW03_git/phase-c/Phieu_nguoi_tham_gia_EShop.docx; D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.md; D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.docx; D:/vscode/Software testing/HW03_git/audit/HW03_AI_Audit_Report.pdf | VALID | Tạo phiếu theo quy trình Phase C hiện có, gồm consent riêng từng loại, tác vụ thử, SUS cá nhân và câu hỏi sau phiên; rà soát hình thức bản DOCX đã xuất trang. | Chưa ghi nhận bản sinh viên sửa cho output này. |
+
 ## 4. Tổng kết Độ chính xác AI
 
-Đã đối chiếu 46 hàng theo lịch sử thread và artifact còn truy xuất được. Các mục #28–#41 được bổ sung hồi tố; #42–#46 ghi trong phiên hiện tại. Chưa ghi nhận chữ ký của sinh viên.
+Đã đối chiếu 47 hàng theo lịch sử thread và artifact còn truy xuất được. Các mục #28–#41 được bổ sung hồi tố; #42–#47 ghi trong phiên hiện tại. Chưa ghi nhận chữ ký của sinh viên.
 
 | Chỉ số | Số lượng | Tỉ lệ |
 |---|---:|---:|
-| Tổng artifact AI sinh đã audit | 46 prompt records | 46 đã có verdict; 0 bỏ trống |
-| VALID (đúng, dùng nguyên) | 31 | 67,39% trên 46 hàng |
-| INVALID (sai; loại bỏ) | 1 | 2,17% trên 46 hàng |
-| INCOMPLETE (chấp nhận sau khi sửa) | 14 | 30,43% trên 46 hàng |
+| Tổng artifact AI sinh đã audit | 47 prompt records | 47 đã có verdict; 0 bỏ trống |
+| VALID (đúng, dùng nguyên) | 32 | 68,09% trên 47 hàng |
+| INVALID (sai; loại bỏ) | 1 | 2,13% trên 47 hàng |
+| INCOMPLETE (chấp nhận sau khi sửa) | 14 | 29,79% trên 47 hàng |
 
 ## 5. Kết luận — Khi nào nên / không nên dùng AI?
 
