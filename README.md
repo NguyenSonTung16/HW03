@@ -23,6 +23,9 @@ Phase B is recorded in this commit. The remaining tasks include Task 1 runs on a
 - Protocol and moderator script: [`phase-c/Phase_C_Protocol.md`](phase-c/Phase_C_Protocol.md)
 - Observation log template: [`phase-c/Observation_Log_TEMPLATE.csv`](phase-c/Observation_Log_TEMPLATE.csv)
 - Anonymized session tracker template: [`phase-c/Participant_Tracker_TEMPLATE.csv`](phase-c/Participant_Tracker_TEMPLATE.csv)
+- Participant task and SUS form: [`phase-c/Kich_ban_nguoi_tham_gia.md`](phase-c/Kich_ban_nguoi_tham_gia.md)
+- Moderator and observation form: [`phase-c/Phieu_dieu_phoi_va_ghi_nhan.md`](phase-c/Phieu_dieu_phoi_va_ghi_nhan.md)
+- How to use the pack: [`phase-c/Huong_dan_su_dung_bo_cong_cu.md`](phase-c/Huong_dan_su_dung_bo_cong_cu.md)
 
 These are preparation drafts and require student review before use. No pilot, recruitment, consent, or participant session has been completed. Participant contact details and recordings must be kept outside this public repository.
 
