@@ -18,6 +18,14 @@ The SUT was run from the isolated work copy `HW03_EShop_Isolated`; the original 
 
 Phase B is recorded in this commit. The remaining tasks include Task 1 runs on at least three platforms and the human-led pilot and seven usability sessions, including recruiting/consent, observation, and recording genuine participant responses. No participant sessions are claimed as completed here.
 
+## Phase C — preparation started
+
+- Protocol and moderator script: [`phase-c/Phase_C_Protocol.md`](phase-c/Phase_C_Protocol.md)
+- Observation log template: [`phase-c/Observation_Log_TEMPLATE.csv`](phase-c/Observation_Log_TEMPLATE.csv)
+- Anonymized session tracker template: [`phase-c/Participant_Tracker_TEMPLATE.csv`](phase-c/Participant_Tracker_TEMPLATE.csv)
+
+These are preparation drafts and require student review before use. No pilot, recruitment, consent, or participant session has been completed. Participant contact details and recordings must be kept outside this public repository.
+
 ## Other materials
 
 - `planning/` — HW03 plan and preparation checklist.
